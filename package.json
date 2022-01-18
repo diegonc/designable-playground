@@ -5,7 +5,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --config webpack.dev.ts"
+    "start": "webpack-dev-server --config webpack.dev.ts",
+    "build:playground": "webpack-cli --config webpack.prod.ts"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
